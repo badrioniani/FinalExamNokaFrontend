@@ -1,0 +1,259 @@
+/* Burger bar start */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .error-text {
+    color: red;
+    font-size: 16px;
+}
+.title-check{
+    color: white;
+    font-size: 25px;
+
+}
+.form-users{
+    width: 90%;
+    margin: 100px ;
+    background-color: #8E96A337;
+
+    justify-content: space-between;
+}
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .li1{
+      font-size: 25px;
+      color: white;
+  }
+ .liii{
+     background-color: #8E96A337;
+     margin: 100px;
+     align-content: center;
+     
+ }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #8E96A337;
+    color: white;
+  }
+  /* Burger bar end */
+  .inputs-form{
+      color: white;
+      margin-top: 30px;
+      margin-left: 300px;
+  }
+  .inputs-form1{
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 600px;
+    height: 50px;
+}
+.sect-mountain {
+    width: 90%;
+    margin: 100px ;
+
+    justify-content: space-between;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-header{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+.title-food {
+    color: blue;
+    font-size: 40px;
+    font: bold;
+}
+
+.food-item-parag {
+    margin-top: 10px;
+    color: white;
+}
+.desc{
+    margin-right: 300px;
+    width: 500px;
+}
+.desc-sea{
+    margin-left: 50px;
+    width: 500px;
+}
+
+.food-item {
+    border-radius: 50px;
+    background-color: #8E96A337;
+    margin-right: 20px;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    width: 80%;
+}
+
+.food-item-text {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.food-list {
+    background-color: #8E96A300;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+/* Header Settings */
+
+.logo{
+    font-size: 13px;
+    color: #FA6980;
+}
+
+.header-box{
+    margin: 10px auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-box{
+    max-width: 400px;
+    width: 100%;
+}
+
+.nav-list{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list li a{
+    font-size: 11px;
+    color: #343638;
+}
+
+.nav-list div{
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-header{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sect-footer{
+    background-color: #000;
+    height: 150px;
+    padding-top: 30px;
+}
+.sect-textboxs {
+    background-color: #8E96A337;
+}
+
+.costum-button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: blue;
+    background-color: blue;
+}
+
+.costum-input {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 40px;
+}
+.content-box{
+    justify-content: space-evenly;
+}
+
+.footer-nav{
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-nav ul li a{
+    color: #fff;
+    font-size: 13px;
+}
+
+.input input{
+    max-width: 262px;
+    max-height: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    border-color: #fff;
+}
+
+.contact{
+    max-width: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+/* treanding */
+.act-img{
+    border-radius: 30px;
+}
+.sect-trending{
+    background-color: #8E96A357;
+    border-radius: 30px;
+    width: 90%;
+    margin: 100px auto; 
+}
+
+.trending-list{
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.trending-item-header{
+    margin-top: 15px;
+    color: white;
+    margin-left: 100px;
+    font:larger;
+}
+
+.trending-item-parag{
+    margin: 10px 0px;
+}

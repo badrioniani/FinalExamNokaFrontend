@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="2682" viewBox="0 0 1920 2682">
+  <defs>
+    <pattern id="pattern" width="1" height="1" viewBox="1417.547 0 1920 2682">
+      <image preserveAspectRatio="xMidYMid slice" width="4291.2" height="2682" xlink:href="../../../Downloads/1431610.jpg"/>
+    </pattern>
+  </defs>
+  <g id="_1431610" data-name="1431610" stroke="#707070" stroke-width="1" fill="url(#pattern)">
+    <rect width="1920" height="2682" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="2681" fill="none"/>
+  </g>
+</svg>

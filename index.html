@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script defer src="scripts/main.js"></script>
+        <title>Home</title>
+    </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav">
+  <a href="#home" class="active">EntrAvEl</a>
+  <div id="myLinks">
+    <a href="#news">Main</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    <body style="background-image: url(images/bgimge.png); width: 100%; ">
+        <div class="header-box flex-wrap">
+            <div class="profile-img-box">
+                <img src="images/user.png" alt="profile" style="height: 40px; width: 40px;">
+            </div>
+            <nav class="nav-box">
+                <ul class="nav-list flex-wrap">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">DISCOVERY</a></li>
+                    <li><a href="#">PHOTOS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+
+            <a href="contact.html" class="logo">Sign In</a>
+                    
+                </ul>
+            </nav>
+        </div>
+        <section class="sect-mountain">
+                <div class="food-list flex-wrap">
+                    <div class="food-item">
+                        <div class="food-img">
+                            <img src="images/mountain.png" alt="trending-img" style="width: 200px; height: 200px;">
+                        </div>
+                        <div class="desc">
+                            <h4 class="title-food">
+                                Mountain
+                            </h4>
+                            <h1 class="food-item-text">Svaneti tour</h1>
+                            <p class="food-item-parag">
+                                Do you like climbing,hiking,drinking and eating?!
+                            </p>
+                            <p class="food-item-parag">
+                                Svaneti tour is your tour
+                            </p>
+                            <p class="food-item-parag">
+                                and your family
+                            </p>
+                        </div>
+    
+                    </div>
+                </div>
+        </section>
+        <section class="sect-mountain">
+            <div class="food-list flex-wrap">
+                <div class="food-item">
+                    
+                    <div class="desc-sea">
+                        <h4 class="title-food">
+                            Sea
+                        </h4>
+                        <h1 class="food-item-text">Batumi tour</h1>
+                        <p class="food-item-parag">
+                            Do you like swiming,diving,drinking and eating?!
+                        </p>
+                        <p class="food-item-parag">
+                            Batumi tour is your tour
+                        </p>
+                        <p class="food-item-parag">
+                            and your family
+                        </p>
+                    </div>
+                    <div class="food-img">
+                        <img src="images/sea.png" alt="trending-img" style="width: 200px; height: 200px;">
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <section class="sect-trending">
+        <div class="trending-box">
+            <div class="trending-list flex-wrap">
+                <div class="trending-item">
+                    <div class="act-img">
+                        <img src="images/carnaval.png" alt="trending-img">
+                    </div>
+                    <h4 class="trending-item-header">
+                        Carnaval
+                    </h4>
+                </div>
+                <div class="trending-item">
+                    <div class="act-img">
+                        <img src="images/leaguecup.png" alt="trending-img">
+                    </div>
+                    <h4 class="trending-item-header">
+                        League
+                    </h4>
+                </div>
+                <div class="trending-item">
+                    <div class="act-img">
+                        <img src="images/festivaal.png" alt="trending-img">
+                    </div>
+                    <h4 class="trending-item-header">
+                        Festival
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 style="color: white; font: bold; font-size: 50px; margin-left: 100px;">Top Users</h1>
+    <ul id="list" class="liii">
+
+    </ul>
+    <form id="registration"  action=" " method="POST">
+        <div class="form-users">
+            <h1 style="margin-left: 550px; color: white; font-size: 45px;">Register</h1>
+            <div>
+                <input class="inputs-form1" type="text" name="username" placeholder="Username...">
+                <div style="margin-left: 300px;" class="error-text" id="error_username"></div>
+            </div>
+            <div>
+                <input class="inputs-form1" type="password" name="password" placeholder="Password...">
+                <div style="margin-left: 300px;" class="error-text" id="error_password"></div>
+            </div>
+            <div>
+                <input class="inputs-form1" type="password" name="password2" placeholder="Repeat Password...">
+                <div style="margin-left: 300px;" class="error-text" id="error_password2"></div>
+            </div>
+    
+            <div class="inputs-form">
+                <input type="radio" name="gender">
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+                <label for="">Female</label>
+                <div class="error-text" id="error_gender"></div>
+            </div>
+    
+            <div class="inputs-form">
+                <input type="checkbox" name="agree">
+                <label for=""> I agree terms and conditions</label>
+                <div class="error-text" id="error_agree"></div>
+            </div>
+    
+            <button style="color: black; width: 100px; margin-left: 300px; margin-top: 30px;" type="submit"> Register</button>
+        </div>
+    </form>
+    
+
+
+    <script src="script.js"></script>
+        <section class="sect-textboxs">
+            <div class="content-box flex-wrap">
+                <div class="inputs">
+                    <h1 class="title-check">Your origin</h1>
+                    <input type="text" ; class="costum-input">
+                </div>
+                <div class="inputs">
+                    <h1 class="title-check">Your age</h1>
+                    <input type="text" ; class="costum-input">
+                </div>
+                <div class="inputs">
+                    <h1 class="title-check">Your dream place</h1>
+                    <input type="text" ; class="costum-input">
+                </div>
+                <div class="inputs">
+                    <h1 class="title-check"></h1>
+                    <input type="button" value="Submit" class="costum-button">
+                </div>
+    
+            </div>
+        </section>
+        
+        
+        <section class="sect-footer">
+            <div class="content-box flex-wrap">
+                <h3>
+                    LOGO
+                </h3>
+                <nav class="footer-nav flex-wrap">
+    
+                    <ul>
+    
+    
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Discovery</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Yerms</a></li>
+                        <li><a href="#">Guidelines</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </nav>
+                <div class="input">
+                    <input onfocus="email_focus()" type="text" placeholder="Email">
+                    <p>Stay in touch ...</p>
+                </div>
+                <div class="contact flex-wrap">
+                    <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="images/twitter.svg" alt="twitter"></a>
+                    <a href="#"><img src="images/web.svg" alt="web"></a>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+
+</html>
